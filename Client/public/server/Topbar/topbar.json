@@ -1,0 +1,65 @@
+{
+  "topbar": {
+    "contactInfo": [
+      {
+        "label": "Find A Location",
+        "icon": "fas fa-map-marker-alt",
+        "link": "#"
+      },
+      {
+        "label": "+01234567890",
+        "icon": "fas fa-phone-alt",
+        "link": "tel:+01234567890"
+      },
+      {
+        "label": "Example@gmail.com",
+        "icon": "fas fa-envelope",
+        "link": "mailto:example@gmail.com"
+      }
+    ],
+    "userActions": [
+      {
+        "label": "Register",
+        "icon": "fa fa-user",
+        "link": "#"
+      },
+      {
+        "label": "Login",
+        "icon": "fa fa-sign-in-alt",
+        "link": "#"
+      }
+    ],
+    "dashboard": {
+      "label": "My Dashboard",
+      "icon": "fa fa-home",
+      "link": "#",
+      "dropdown": [
+        {
+          "label": "My Profile",
+          "icon": "fas fa-user-alt",
+          "link": "#"
+        },
+        {
+          "label": "Inbox",
+          "icon": "fas fa-comment-alt",
+          "link": "#"
+        },
+        {
+          "label": "Notifications",
+          "icon": "fas fa-bell",
+          "link": "#"
+        },
+        {
+          "label": "Account Settings",
+          "icon": "fas fa-cog",
+          "link": "#"
+        },
+        {
+          "label": "Log Out",
+          "icon": "fas fa-power-off",
+          "link": "#"
+        }
+      ]
+    }
+  }
+}
