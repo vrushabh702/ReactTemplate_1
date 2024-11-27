@@ -1,0 +1,32 @@
+{
+  "title": "About Us",
+  "heading": "Meet our company unless miss the opportunity",
+  "description": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum velit temporibus repudiandae ipsa, eaque perspiciatis cumque incidunt tenetur sequi reiciendis.",
+  "features": [
+    {
+      "icon": "fas fa-lightbulb",
+      "title": "Business Consulting",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+    },
+    {
+      "icon": "bi bi-bookmark-heart-fill",
+      "title": "Year Of Expertise",
+      "description": "Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+    }
+  ],
+  "ctaButton": {
+    "label": "Discover Now",
+    "link": "#"
+  },
+  "contact": {
+    "icon": "fas fa-phone-alt",
+    "title": "Call Us",
+    "phone": "+01234567890"
+  },
+  "images": [
+    "img/about-2.png",
+    "img/about-3.png",
+    "img/about-4.png",
+    "img/about-5.jpg"
+  ]
+}
