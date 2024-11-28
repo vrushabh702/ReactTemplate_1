@@ -1,0 +1,44 @@
+{
+  "title": "Our Services",
+  "heading": "We Services provided best offer",
+  "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.",
+  "services": [
+    {
+      "image": "assets/img/service-1.jpg",
+      "title": "Strategy Consulting",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis.",
+      "link": "#"
+    },
+    {
+      "image": "assets/img/service-2.jpg",
+      "title": "Financial Advisory",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis.",
+      "link": "#"
+    },
+    {
+      "image": "assets/img/service-3.jpg",
+      "title": "Managements",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis.",
+      "link": "#",
+      "button": "Learn More"
+    },
+    {
+      "image": "assets/img/service-4.jpg",
+      "title": "Supply Optimization",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis.",
+      "link": "#"
+    },
+    {
+      "image": "assets/img/service-5.jpg",
+      "title": "Hr Consulting",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis.",
+      "link": "#"
+    },
+    {
+      "image": "assets/img/service-6.jpg",
+      "title": "Marketing Consulting",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, sint? Excepturi facilis neque nesciunt similique officiis veritatis.",
+      "link": "#"
+    }
+  ]
+}
