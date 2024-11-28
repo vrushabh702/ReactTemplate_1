@@ -1,0 +1,86 @@
+{
+  "carouselItems": [
+    {
+      "image": "assets/img/carousel-1.jpg",
+      "caption": {
+        "heading": "Welcome To Stocker",
+        "subHeading": "Invest your money with higher return",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy...",
+        "buttons": [
+          {
+            "text": "Watch Video",
+            "icon": "fas fa-play-circle",
+            "link": "#"
+          },
+          {
+            "text": "Learn More",
+            "link": "#"
+          }
+        ],
+        "socialLinks": [
+          {
+            "platform": "Facebook",
+            "icon": "fab fa-facebook-f",
+            "link": ""
+          },
+          {
+            "platform": "Twitter",
+            "icon": "fab fa-twitter",
+            "link": ""
+          },
+          {
+            "platform": "Instagram",
+            "icon": "fab fa-instagram",
+            "link": ""
+          },
+          {
+            "platform": "LinkedIn",
+            "icon": "fab fa-linkedin-in",
+            "link": ""
+          }
+        ]
+      }
+    },
+    {
+      "image": "assets/img/carousel-2.jpg",
+      "caption": {
+        "heading": "Welcome To Stocker",
+        "subHeading": "Invest your money with higher return",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy...",
+        "buttons": [
+          {
+            "text": "Watch Video",
+            "icon": "fas fa-play-circle",
+            "link": "#"
+          },
+          {
+            "text": "Learn More",
+            "link": "#"
+          }
+        ],
+        "socialLinks": [
+          {
+            "platform": "Facebook",
+            "icon": "fab fa-facebook-f",
+            "link": ""
+          },
+          {
+            "platform": "Twitter",
+            "icon": "fab fa-twitter",
+            "link": ""
+          },
+          {
+            "platform": "Instagram",
+            "icon": "fab fa-instagram",
+            "link": ""
+          },
+          {
+            "platform": "LinkedIn",
+            "icon": "fab fa-linkedin-in",
+            "link": ""
+          }
+        ]
+      }
+    }
+  ]
+}
