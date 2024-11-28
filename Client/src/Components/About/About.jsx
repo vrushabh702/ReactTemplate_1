@@ -60,12 +60,12 @@ const About = () => {
           <div className="col-xl-5">
             <div className="bg-primary rounded position-relative overflow-hidden">
               <img
-                src={aboutData.images.main}
+                src={aboutData.images[0]}
                 className="img-fluid rounded w-100"
                 alt="Main"
               />
               <img
-                src={aboutData.images.overlay1}
+                src={aboutData.images[1]}
                 className="position-absolute"
                 style={{
                   top: "-15px",
@@ -76,7 +76,7 @@ const About = () => {
                 alt="Overlay 1"
               />
               <img
-                src={aboutData.images.overlay2}
+                src={aboutData.images[2]}
                 className="position-absolute"
                 style={{
                   top: "-20px",
@@ -88,7 +88,7 @@ const About = () => {
                 alt="Overlay 2"
               />
               <img
-                src={aboutData.images.bottom}
+                src={aboutData.images[3]}
                 className="img-fluid rounded-bottom w-100"
                 alt="Bottom"
               />

@@ -24,9 +24,9 @@
     "phone": "+01234567890"
   },
   "images": [
-    "img/about-2.png",
-    "img/about-3.png",
-    "img/about-4.png",
-    "img/about-5.jpg"
+    "assets/img/about-2.png",
+    "assets/img/about-3.png",
+    "assets/img/about-4.png",
+    "assets/img/about-5.jpg"
   ]
 }
