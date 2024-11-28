@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from "react";
 
 const Carousel = () => {
-  const [carouselData, setCarouselData] = useState(null);
+  const [homeData, setHomeData] = useState(null);
 
   useEffect(() => {
     fetch("http://localhost:3000/server/Home/home.json")
       .then((response) => response.json())
       .then((data) => {
         console.log(data);
-        setCarouselData(data);
+        setHomeData(data);
       })
       .catch((error) => console.error("Error fetching carousel data:", error));
   }, []);
@@ -23,17 +23,21 @@ const Carousel = () => {
         autoplay: true,
         autoplayTimeout: 3000,
         autoplayHoverPause: true,
+        navText: [
+          '<i class="bi bi-arrow-left"></i>',
+          '<i class="bi bi-arrow-right"></i>',
+        ],
       });
     }
-  }, [carouselData]); // Ensure it re-runs after data is set
+  }, [homeData]); // Ensure it re-runs after data is set
 
-  if (!carouselData) {
+  if (!homeData) {
     return <div>Loading...</div>;
   }
 
   return (
     <div className="header-carousel owl-carousel">
-      {carouselData.carouselItems.map((item, index) => (
+      {homeData.carouselItems.map((item, index) => (
         <div className="header-carousel-item" key={index}>
           <img src={item.image} className="img-fluid w-100" alt="Image" />
           <div className="carousel-caption">
@@ -53,14 +57,15 @@ const Carousel = () => {
                       {item.caption.buttons.map((button, index) => (
                         <a
                           key={index}
-                          className={`btn ${
+                          className={`btn${
                             button.text === "Learn More"
                               ? "btn-primary"
                               : "btn-light"
-                          } rounded-pill py-3 px-4 px-md-5 me-2`}
+                          }  rounded-pill py-3 px-4 px-md-5 me-2`}
                           href={button.link}
                         >
-                          <i className={`${button.icon} me-2`}></i>{" "}
+                          <i className={`${button.icon} me-2`}></i>
+
                           {button.text}
                         </a>
                       ))}

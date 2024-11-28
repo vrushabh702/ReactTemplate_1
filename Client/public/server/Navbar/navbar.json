@@ -6,22 +6,22 @@
       "link": ""
     },
     "navLinks": [
-      { "label": "Home", "link": "index.html", "active": true },
-      { "label": "About", "link": "about.html", "active": false },
-      { "label": "Services", "link": "service.html", "active": false },
-      { "label": "Blogs", "link": "blog.html", "active": false },
+      { "label": "Home", "link": "index", "active": true },
+      { "label": "About", "link": "about", "active": false },
+      { "label": "Services", "link": "service", "active": false },
+      { "label": "Blogs", "link": "blog", "active": false },
       {
         "label": "Pages",
         "submenu": [
-          { "label": "Our Features", "link": "feature.html" },
-          { "label": "Our Team", "link": "team.html" },
-          { "label": "Testimonial", "link": "testimonial.html" },
-          { "label": "Our Offer", "link": "offer.html" },
-          { "label": "FAQs", "link": "FAQ.html" },
-          { "label": "404 Page", "link": "404.html" }
+          { "label": "Our Features", "link": "feature" },
+          { "label": "Our Team", "link": "team" },
+          { "label": "Testimonial", "link": "testimonial" },
+          { "label": "Our Offer", "link": "offer" },
+          { "label": "FAQs", "link": "FAQ" },
+          { "label": "404 Page", "link": "404" }
         ]
       },
-      { "label": "Contact Us", "link": "contact.html" }
+      { "label": "Contact Us", "link": "contact" }
     ],
     "ctaButton": {
       "label": "Get Started",
