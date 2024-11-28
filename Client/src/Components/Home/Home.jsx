@@ -1,17 +1,17 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react"
 
 const Carousel = () => {
-  const [homeData, setHomeData] = useState(null);
+  const [homeData, setHomeData] = useState(null)
 
   useEffect(() => {
     fetch("http://localhost:3000/server/Home/home.json")
       .then((response) => response.json())
       .then((data) => {
-        console.log(data);
-        setHomeData(data);
+        // console.log(data);
+        setHomeData(data)
       })
-      .catch((error) => console.error("Error fetching carousel data:", error));
-  }, []);
+      .catch((error) => console.error("Error fetching carousel data:", error))
+  }, [])
 
   useEffect(() => {
     if (window.$ && window.$(".header-carousel").owlCarousel) {
@@ -27,12 +27,12 @@ const Carousel = () => {
           '<i class="bi bi-arrow-left"></i>',
           '<i class="bi bi-arrow-right"></i>',
         ],
-      });
+      })
     }
-  }, [homeData]); // Ensure it re-runs after data is set
+  }, [homeData]) // Ensure it re-runs after data is set
 
   if (!homeData) {
-    return <div>Loading...</div>;
+    return <div>Loading...</div>
   }
 
   return (
@@ -92,7 +92,7 @@ const Carousel = () => {
         </div>
       ))}
     </div>
-  );
-};
+  )
+}
 
-export default Carousel;
+export default Carousel

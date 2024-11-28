@@ -2,18 +2,22 @@ import React, { useEffect, useState } from "react"
 
 const Features = () => {
   const [featureData, setFeatureData] = useState(null)
-
   useEffect(() => {
-    fetch("http://localhost:3000/server/Features/features.json")
-      .then((response) => response.json())
-      .then((data) => setFeatureData(data))
-      .catch((error) => console.error("Error fetching features data:", error))
+    fetch("http://localhost:3000/server/Features/features.json").then(
+      (response) =>
+        response
+          .json()
+          .then((data) => {
+            // console.log(data)
+            setFeatureData(data)
+          })
+          .catch((error) => console.error("Fetching data Error", error))
+    )
   }, [])
 
   if (!featureData) {
     return <div>Loading...</div>
   }
-
   return (
     <div className="container-fluid feature pb-5">
       <div className="container pb-5">
@@ -36,7 +40,7 @@ const Features = () => {
               >
                 <div className="feature-item p-4">
                   <div className="feature-icon p-4 mb-4">
-                    <i className={feature.icon}></i>
+                    <i className={`${feature.icon} text-primary`}></i>
                   </div>
                   <h4>{feature.title}</h4>
                   <p className="mb-4">{feature.description}</p>
@@ -44,7 +48,7 @@ const Features = () => {
                     className="btn btn-primary rounded-pill py-2 px-4"
                     href={feature.link}
                   >
-                    Learn More
+                    {feature.button}
                   </a>
                 </div>
               </div>
