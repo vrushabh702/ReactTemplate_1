@@ -6,7 +6,7 @@
       "link": ""
     },
     "navLinks": [
-      { "label": "Home", "link": "index", "active": true },
+      { "label": "Home", "link": "home", "active": true },
       { "label": "About", "link": "about", "active": false },
       { "label": "Services", "link": "service", "active": false },
       { "label": "Blogs", "link": "blog", "active": false },

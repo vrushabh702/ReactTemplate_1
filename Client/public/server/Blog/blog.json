@@ -1,0 +1,39 @@
+{
+  "title": "Our Offer",
+  "heading": "Benefits We offer",
+  "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.",
+  "offers": [
+    {
+      "tab": "collapseOne",
+      "title": "Lending money for investment of your new projects",
+      "image": "img/offer-1.jpg",
+      "heading": "The stock market provides a venue...",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis amet sequi molestiae tenetur eum mollitia, blanditiis, magnam illo magni error dolore unde perspiciatis tempore et totam corrupti dignissimos aut praesentium?",
+      "link": "#"
+    },
+    {
+      "tab": "collapseTwo",
+      "title": "Lending money for investment of your new projects",
+      "image": "img/offer-2.jpg",
+      "heading": "The stock market provides a venue...",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis amet sequi molestiae tenetur eum mollitia, blanditiis, magnam illo magni error dolore unde perspiciatis tempore et totam corrupti dignissimos aut praesentium?",
+      "link": "#"
+    },
+    {
+      "tab": "collapseThree",
+      "title": "Mobile payment is more flexible and easy for all investors",
+      "image": "img/offer-3.jpg",
+      "heading": "The stock market provides a venue...",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis amet sequi molestiae tenetur eum mollitia, blanditiis, magnam illo magni error dolore unde perspiciatis tempore et totam corrupti dignissimos aut praesentium?",
+      "link": "#"
+    },
+    {
+      "tab": "collapseFour",
+      "title": "All transaction is kept free for the member of pro traders",
+      "image": "img/offer-4.jpg",
+      "heading": "The stock market provides a venue...",
+      "content": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis amet sequi molestiae tenetur eum mollitia, blanditiis, magnam illo magni error dolore unde perspiciatis tempore et totam corrupti dignissimos aut praesentium?",
+      "link": "#"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "offerSection": {
+    "title": "Our Offer",
+    "subtitle": "Benefits We offer",
+    "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.",
+    "offers": [
+      {
+        "id": "collapseOne",
+        "title": "Lending money for investment of your new projects",
+        "image": "assets/img/offer-1.jpg",
+        "heading": "The stock market provides a venue...",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis amet sequi molestiae tenetur eum mollitia, blanditiis, magnam illo magni error dolore unde perspiciatis tempore et totam corrupti dignissimos aut praesentium?",
+        "buttonText": "Learn More",
+        "buttonLink": "#",
+        "active": true
+      },
+      {
+        "id": "collapseTwo",
+        "title": "Lending money for investment of your new projects",
+        "image": "assets/img/offer-2.jpg",
+        "heading": "The stock market provides a venue...",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis amet sequi molestiae tenetur eum mollitia, blanditiis, magnam illo magni error dolore unde perspiciatis tempore et totam corrupti dignissimos aut praesentium?",
+        "buttonText": "Learn More",
+        "buttonLink": "#",
+        "active": false
+      },
+      {
+        "id": "collapseThree",
+        "title": "Mobile payment is more flexible and easy for all investors",
+        "image": "assets/img/offer-3.jpg",
+        "heading": "The stock market provides a venue...",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis amet sequi molestiae tenetur eum mollitia, blanditiis, magnam illo magni error dolore unde perspiciatis tempore et totam corrupti dignissimos aut praesentium?",
+        "buttonText": "Learn More",
+        "buttonLink": "#",
+        "active": false
+      },
+      {
+        "id": "collapseFour",
+        "title": "All transactions are kept free for the member of pro traders",
+        "image": "assets/img/offer-4.jpg",
+        "heading": "The stock market provides a venue...",
+        "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis amet sequi molestiae tenetur eum mollitia, blanditiis, magnam illo magni error dolore unde perspiciatis tempore et totam corrupti dignissimos aut praesentium?",
+        "buttonText": "Learn More",
+        "buttonLink": "#",
+        "active": false
+      }
+    ]
+  }
+}
